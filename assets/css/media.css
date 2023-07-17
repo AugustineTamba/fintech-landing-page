@@ -1,0 +1,562 @@
+@media screen and (max-width: 1358px) {
+    .showcase .showcase-content {
+        margin-top: 15%;
+        padding: 0 4rem;
+    }
+    .showcase .showcase-content h1 {
+        font-size: 4rem;
+        color: var(--primary-color);
+        margin: 0.9375rem 0;
+    }
+    .showcase .showcase-content p {
+        font-size: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 1280px) {
+    #goals .goal-text {
+        font-size: 0.9rem;
+        /* padding-right: 16rem; */
+    }
+}
+
+@media screen and (max-width: 1008px) {
+    /* Styles for screens up to 1008px wide */
+    .showcase .navbar-top {
+        padding: 0 3rem;
+    }
+    .showcase .left li a {
+        font-size: 0.8rem;
+    }
+    /* .showcase .left li a i {
+        padding: 0;
+    } */
+    .showcase .right li a {
+        font-size: 0.8rem;
+        padding: 0.3rem 0.3rem;
+    }
+    .showcase .navbar-bottom {
+        width: 100%;
+        padding: 1.56rem 2rem;
+        height: 4%;
+    }
+    .showcase .navbar-bottom .menu-right li a {
+        padding: 0 1rem;
+    }
+    #goals .goal-img {
+        /* display: none; */
+        width: 100%;
+        /* padding: 50rem; */
+        padding-left: 3.5rem;
+    }
+    #goals .goal-text {
+        font-size: 1rem;
+        padding-left: 1rem;
+        margin: 0;
+    }
+    #goals .goal-text .contents .content p {
+        font-size: 0.8rem;
+        padding: 0;
+    }
+    .showcase .showcase-content {
+        margin-top: 22%;
+        padding: 0 2.5rem;
+    }
+    .showcase .showcase-content h1 {
+        font-size: 5rem;
+        color: var(--primary-color);
+        margin: 0.9375rem 0;
+    }
+    .showcase .showcase-content p {
+        font-size: 2rem;
+        line-height: 1.6;
+        color: var(--light-color);
+        margin-bottom: 1.25rem;
+    }
+    /* .showcase {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./images/bg.jpeg') no-repeat center center/cover;
+        width: 100%;
+        height: 70vh;
+    } */
+}
+
+@media screen and (max-width: 1024px) {
+    /* Styles for screens up to 1008px wide */
+    #goals .goal-img {
+        /* display: none; */
+        width: 100%;
+        /* padding: 50rem; */
+        padding-left: 3.5rem;
+    }
+    #goals .goal-text {
+        font-size: 1rem;
+        padding-left: 1rem;
+        margin: 0;
+    }
+    #goals .goal-text .contents .content p {
+        font-size: 0.8rem;
+        padding: 0;
+    }
+    #goals {
+        padding: 0;
+    }
+    #goals .goal-text .contents .content h3 {
+        font-size: 1.2rem;
+    }
+    .goals .goal-text .contents .content.p-4 {
+        font-size: 1rem;
+        padding: 0.5rem;
+        /* margin: 0; */
+    }
+    #blog .wrapper .blog-info a {
+        margin: 25px;
+        /* padding: 5px 10px;
+        font-size: 10px; */
+    }
+}
+
+@media screen and (max-width: 836px) {
+    /* Styles for screens up to 768px wide */
+    .showcase .navbar-top {
+        padding: 0 1rem;
+    }
+    .showcase .left li a {
+        font-size: 0.8rem;
+    }
+    /* .showcase .left li a i {
+        padding: 0;
+        font-size: 0.7rem;
+    } */
+    .showcase .right li a {
+        font-size: 0.8rem;
+        padding: 0.3rem 0.3rem;
+    }
+    .showcase .navbar-bottom {
+        width: 100%;
+        padding: 1.56rem 1rem;
+        height: 4%;
+    }
+    #goals .goal-img {
+        /* display: none; */
+        width: 100%;
+        /* padding: 50rem; */
+        padding-left: 3.5rem;
+    }
+    #goals .goal-text {
+        font-size: 1rem;
+        padding-left: 1rem;
+        margin: 0;
+    }
+    #goals .goal-text .contents .content p {
+        font-size: 0.8rem;
+        padding: 0;
+    }
+    .showcase .showcase-content {
+        margin-top: 25%;
+        padding: 0 3rem;
+    }
+    #blog .wrapper .blog-info a {
+        padding: 5px 5px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    /* Styles for screens up to 768px wide */
+    .showcase .showcase-content {
+        margin-top: 25%;
+        padding: 0 4rem;
+    }
+    .showcase .showcase-content h1 {
+        font-size: 3rem;
+        color: var(--primary-color);
+        margin: 0.9375rem 0;
+    }
+    .showcase .showcase-content p {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* Styles for screens up to 768px wide */
+    .showcase .navbar-bottom .menu-right {
+        display: none;
+    }
+    .showcase .navbar-bottom {
+        width: 100%;
+        padding: 1.56rem 2rem;
+        height: 4%;
+    }
+    .showcase .navbar-bottom .menu-bar {
+        display: block;
+    }
+    .showcase .navbar-bottom .menu-bar #menu i {
+        font-size: 2rem !important;
+        cursor: pointer;
+        transition: all 0.8s ease-in-out;
+    }
+    .showcase .navbar-bottom .menu-bar #menu i:hover {
+        color: var(--primary-color);
+    }
+    .showcase .navbar-bottom .menu-right {
+        position: fixed;
+        top: 5.3rem;
+        right: -100px;
+        width: 75%;
+        height: 100%;
+        display: block;
+        background-color: var(--navbar-bottom-color);
+        z-index: 1000;
+        /* display: flex; */
+        /* flex-direction: column; */
+        /* align-items: center; */
+        transform: translateX(100%);
+        transition: all 0.8s ease-in-out;
+    }
+    .showcase .navbar-bottom .menu-right li {
+        text-align: center;
+        margin: 1rem 0;
+        border-radius: 0.2rem;
+        row-gap: 0.5rem;
+    }
+    .showcase .navbar-bottom .menu-right li a {
+        display: block;
+        padding: 1rem;
+        font-size: 1.8rem;
+        font-weight: 400;
+    }
+    .showcase .navbar-bottom .menu-right.active {
+        transform: translateX(0);
+        right: 0;
+    }
+    .goals .goal-text h2 {
+        font-size: 1.5rem;
+    }
+    #goals .goal-text .contents .content p {
+        font-size: 0.75rem;
+        padding: 0;
+    }
+}
+
+@media screen and (max-width: 692px) {
+    /* Styles for screens up to 768px wide */
+    .showcase .navbar-top {
+        padding: 0 1rem;
+    }
+    .showcase .left li a {
+        font-size: 0.7rem;
+        padding: 0.3rem 0.3rem;
+    }
+    /* .showcase .left li a i {
+        padding: 0;
+        font-size: 0.7rem;
+    } */
+    .showcase .right li a {
+        font-size: 0.7rem;
+        padding: 0.3rem 0.3rem;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    /* Styles for screens up to 768px wide */
+    .showcase .showcase-content {
+        margin-top: 25%;
+        padding: 0 4rem;
+    }
+    .showcase .showcase-content h1 {
+        font-size: 3rem;
+        color: var(--primary-color);
+        margin: 0.9375rem 0;
+    }
+    .showcase .showcase-content p {
+        font-size: 1rem;
+    }
+    .showcase .left li a i {
+        display: none;
+    }
+    #goals .goal-img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Styles for screens up to 480px wide */
+    .showcase .navbar-top {
+        padding: 0;
+    }
+    .showcase .left li a {
+        font-size: 0.5rem;
+        padding: 0.3rem 0.4rem;
+    }
+    .showcase .left li a i {
+        display: none;
+        padding-right: 0.5rem;
+        font-size: 0.1rem;
+    }
+    .showcase .right li a {
+        font-size: 0.1rem;
+    }
+    #goals {
+        display: flex;
+        align-items: center;
+    }
+    #goals .goal-img {
+        display: none;
+    }
+    #goals .goal-text {
+        font-size: 1rem;
+        padding: 0;
+        margin: 0;
+    }
+    #goals .goal-text h2 {
+        font-size: 1.5rem;
+    }
+    #goals .goal-text .contents .content h3 {
+        font-size: 1rem;
+    }
+    #goals .goal-text .contents .content p {
+        font-size: 0.8rem;
+        padding: 0;
+    }
+    #goals .goal-text .contents .content.p-4 {
+        /* font-size: 0.6rem; */
+        padding: 0 0rem 0.5rem 0;
+        margin: 0;
+    }
+    .showcase .showcase-content {
+        margin-top: 25%;
+        padding: 0 4rem;
+    }
+    .showcase .showcase-content h1 {
+        font-size: 3rem;
+        color: var(--primary-color);
+        margin: 0.9375rem 0;
+    }
+    .showcase .showcase-content .btn-left {
+        margin: 0;
+        font-size: 0.7rem;
+        font-weight: 500;
+    }
+    .showcase .showcase-content .btn-right {
+        margin: 0;
+        font-size: 0.7rem;
+        font-weight: 500;
+    }
+    #contact h2 {
+        font-size: 30px;
+    }
+    #blog .wrapper .blog-info h2 {
+        font-size: 30px;
+    }
+    #blog .wrapper .blog-info a {
+        padding: 15px 25px;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width: 390px) {
+    /* Styles for screens up to 350px wide */
+    .showcase .left li a {
+        font-size: 0.43rem;
+        padding: 0.3rem 0.4rem;
+    }
+    .showcase .navbar-bottom .menu-right {
+        top: 4.9rem;
+    }
+    .showcase .showcase-content {
+        margin-top: 22%;
+        padding: 0 3rem;
+    }
+    .showcase .showcase-content h1 {
+        font-size: 3.2rem;
+        color: var(--primary-color);
+        margin: 0.9375rem 0;
+    }
+    .showcase .showcase-content p {
+        font-size: 1.125rem;
+        line-height: 1.6;
+        color: var(--light-color);
+        margin-bottom: 1.25rem;
+    }
+    #goals {
+        padding: 0;
+    }
+    /* #services .goals .goal-text {
+        font-size: 0.5rem;
+        padding-right: 0;
+        margin-left: 0;
+    }
+    #services .goals .goal-text .contents {
+        padding: 0;
+    }
+    #goals .goal-text .contents .content h3 {
+        font-size: 1rem;
+    }
+    #goals .goal-text .contents .content p {
+        font-size: 5rem;
+        padding: 0;
+    }*/
+    #goals .goal-text .contents .content.p-4 {
+        font-size: 0.6rem;
+        padding: 0;
+        margin: 0;
+    }
+    .showcase .showcase-content .btn-left {
+        margin: 0;
+        font-size: 0.6rem;
+        font-weight: 500;
+    }
+    .showcase .showcase-content .btn-right {
+        margin: 0;
+        font-size: 0.6rem;
+        font-weight: 500;
+    }
+    .showcase {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./images/bg.jpeg') no-repeat center center/cover;
+        width: 100%;
+        height: 70vh;
+    }
+}
+
+@media screen and (max-width: 393px) {
+    /* Styles for screens up to 350px wide */
+    .showcase .left li a {
+        font-size: 0.43rem;
+        padding: 0.3rem 0.4rem;
+    }
+    .showcase .navbar-bottom .menu-right {
+        top: 4.9rem;
+    }
+    .showcase .showcase-content {
+        margin-top: 22%;
+        padding: 0 3rem;
+    }
+    .showcase .showcase-content h1 {
+        font-size: 3.2rem;
+        color: var(--primary-color);
+        margin: 0.9375rem 0;
+    }
+    .showcase .showcase-content p {
+        font-size: 1.125rem;
+        line-height: 1.6;
+        color: var(--light-color);
+        margin-bottom: 1.25rem;
+    }
+    #goals {
+        padding: 0;
+    }
+    #goals .goal-text {
+        font-size: 0.5rem;
+        padding-right: 0;
+        margin-left: 0;
+    }
+    #goals .goal-text .contents {
+        padding-right: 0rem;
+    }
+    #goals .goal-text .contents .content h3 {
+        font-size: 1rem;
+    }
+    #goals .goal-text h2 {
+        font-size: 1.4rem;
+    }
+    #goals .goal-text .contents .content p {
+        font-size: 0.7rem;
+        padding: 0;
+    }
+    #goals .goal-text .contents .content.p-4 {
+        font-size: 0.6rem;
+        padding: 0 0.2rem 0.2rem 0;
+        margin: 0;
+    }
+    .showcase .showcase-content .btn-left {
+        margin: 0;
+        font-size: 0.6rem;
+        font-weight: 500;
+    }
+    .showcase .showcase-content .btn-right {
+        margin: 0;
+        font-size: 0.6rem;
+        font-weight: 500;
+    }
+    .showcase {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./images/bg.jpeg') no-repeat center center/cover;
+        width: 100%;
+        height: 70vh;
+    }
+}
+
+@media screen and (max-width: 385px) {
+    /* Styles for screens up to 350px wide */
+    .showcase .left li a {
+        font-size: 0.43rem;
+        padding: 0.3rem 0.4rem;
+    }
+    .showcase .navbar-bottom .menu-right {
+        top: 4.9rem;
+    }
+    .showcase .showcase-content {
+        margin-top: 22%;
+        padding: 0 3rem;
+    }
+    .showcase .showcase-content h1 {
+        font-size: 3.2rem;
+        color: var(--primary-color);
+        margin: 0.9375rem 0;
+    }
+    .showcase .showcase-content p {
+        font-size: 1.125rem;
+        line-height: 1.6;
+        color: var(--light-color);
+        margin-bottom: 1.25rem;
+    }
+    #services .goals {
+        padding: 0;
+    }
+    #services .goals .goal-text {
+        padding: 0;
+        margin: 0;
+    }
+    #services .goals .goal-text h2 {
+        font-size: 1rem;
+    }
+    #goals .goal-text .contents .content h3 {
+        font-size: 0.9rem;
+    }
+    #goals .goal-text .contents .content p {
+        font-size: 0.7rem;
+        padding: 0;
+    }
+    #services .goals .goal-text .contents .content.p-4 {
+        font-size: 1rem;
+        padding: 0 0.2rem 0.2rem;
+        margin: 0;
+    }
+    .showcase .showcase-content .btn-left {
+        margin: 0;
+        font-size: 0.6rem;
+        font-weight: 500;
+    }
+    .showcase .showcase-content .btn-right {
+        margin: 0;
+        font-size: 0.6rem;
+        font-weight: 500;
+    }
+    .showcase {
+        background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('./images/bg.jpeg') no-repeat center center/cover;
+        width: 100%;
+        height: 100vh;
+    }
+    .showcase .right li a i {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    #goals .goal-text .contents .content p {
+        font-size: 0.6rem;
+        padding: 0;
+    }
+    #goals .goal-text h2 {
+        font-size: 1.3rem;
+    }
+}
