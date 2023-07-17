@@ -9,9 +9,9 @@ It also provides an opportunity to understand how different sections, such as co
 
 
 # Technologies Used
-JavaScript: 52%
-CSS: 29.2%
-HTML: 18.8%
+JavaScript: 2%
+CSS: 87%
+HTML: 11%
 
 # Features
 * Home page: The main landing page that introduces the Fin Tech company and provides an overview of its offerings.
