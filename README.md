@@ -1,6 +1,6 @@
 ![fintech-landing page](https://github.com/AugustineTamba/fintech-landing-page/assets/51299834/7d0e992a-8025-4df3-b081-8e3fba5dd4b4)
 
-View the project here: www.finavailable.vercel.app
+View the project here: [www.finavailable.vercel.app](https://finavailable.vercel.app/)
 
 # Fin Avaiable Website
 The "Fin Avaiable Website" repository is a collection of code files that represent a Fin Tech Landing website. 
@@ -24,7 +24,7 @@ HTML: 11%
 # Usage
 * Clone the repository:
 git clone https://github.com/AugustineTamba/fintech-landing-page.git
-View the project here: www.finavailable.vercel.app
+View the project here: [www.finavailable.vercel.app](https://finavailable.vercel.app/)
 
 # Open the 'index.html' file in your web browser.
 
@@ -48,4 +48,4 @@ If you have any questions or feedback, please feel free to reach out via satamba
 
 Happy task management!
 
-View the project here: www.finavailable.vercel.app
+View the project here: [www.finavailable.vercel.app](https://finavailable.vercel.app/)https://finavailable.vercel.app/
